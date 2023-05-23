@@ -1,0 +1,41 @@
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+.fastRequest
+!**/lib/*.jar
+!repo/**
+*.war
+*.ear
+application.pid
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+*.versionsBackup
+*~
+
+# eclipse ignore
+.settings
+.project
+.classpath
+*.gz
+disconf
+dist
+logs
+
+# idea ignore
+.idea
+*.iml
+target
+
+logs
+
+# other ignore
+*.log
+*.tmp
+Thumbs.db
+*.DS_Store
+.factorypath
+*/.lck
+*.msg
+LOG_HOME_IS_UNDEFINED
